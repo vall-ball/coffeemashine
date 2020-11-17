@@ -1,0 +1,29 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    public class Main {
+
+        public static void main(String[] args) {
+
+        }
+    }
+
+    /* At least two constants start with STAR
+    enum Secret {
+        STAR, CRASH, START, // ...
+    }
+    */
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2970
+status: Solved
+feedback:
+  message: |
+    Compilation error
+    Main.java:19: error: duplicate class: Secret
+    enum Secret {
+    ^
+    1 error
+  time: Mon, 06 Jul 2020 05:39:52 UTC
+record: -1
